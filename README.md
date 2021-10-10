@@ -9,7 +9,7 @@ Despite being a simple portfolio, I am also using this as a personal repo of tho
 -  [UnifiedScript.ps1](UnifiedScript.ps1)
 	>  All-in-one ps1 file including my scripts with a menu. Hardcoded.
 
--  ["\Scripts" folder](\scripts)
+-  ["\StandaloneScripts" folder](/StandaloneScripts/)
 	>  Scripts as standalone. In a future I expect to link "UnifiedScript" to the scripts located in that folder to avoid double edditing and link it to UnifiedScript.
 
 ## Author
