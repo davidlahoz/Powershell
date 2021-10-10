@@ -4,7 +4,7 @@ function Show-Menu {
     param (
         [string]$Title = 'My Menu'
     )
-    cls
+    Clear-Host
     Write-Host "================ $Title ================"
     
     Write-Host "1: Press '1' for 'Freeing up space on C'."
@@ -20,7 +20,7 @@ do {
     switch ($input) {
         #Launch FreeUpSpaceOnC
         '1' {
-            cls
+            Clear-Host
             #
             # WelcomeText
             #
@@ -86,7 +86,7 @@ do {
             }
         } '2' {
             # Launch WUAUServ Cleanup
-            cls
+            Clear-Host
             # WelcomeText
 
             $WelcomeText = "`n`n SoftwareDistribution\Download deletion. `n`n"
@@ -105,7 +105,7 @@ do {
             Get-service wuauserv
         } '3' {
             #Launch AD Export to csv
-            cls
+            Clear-Host
             #EXPORTING USERNAME AND SAMACCOUNTNAME AKA LOGIN USERNAME TO CSV
             $Message = " The CSV file will be generated on the same folder where this script is exectuted `n"
             Write-Host $Message -ForegroundColor Red
