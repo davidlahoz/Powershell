@@ -64,7 +64,7 @@ else
 exit(0)
 }
 
+Set-Location $ScriptHome
 #
 # END
 #
-cd $ScriptHome

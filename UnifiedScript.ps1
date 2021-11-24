@@ -131,3 +131,4 @@ do {
     pause
 }
 until ($input -eq 'q')
+Set-Location $ScriptHome
