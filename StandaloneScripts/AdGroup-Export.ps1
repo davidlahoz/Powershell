@@ -1,18 +1,21 @@
-﻿#EXPORTING USERNAME AND SAMACCOUNTNAME AKA LOGIN USERNAME TO CSV
+﻿#Create C:\Temp
+New-Item -ItemType Directory -Force -Path C:\TEMP
+
+#EXPORTING USERNAME AND SAMACCOUNTNAME AKA LOGIN USERNAME TO CSV
 $Message = " The CSV file will be generated on the same folder where this script is exectuted `n"
 Write-Host $Message -ForegroundColor Red
 
-#ADGroup input
+#ADGroup input structure
 $ADgroup = Read-Host -Prompt ' AD Group you would like to export'
+$ExportCSV = "c:\TEMP\"+$ADgroup+".csv"
 
 $Message = " Exporting $ADgroup to csv. If the group has many users it might take a while. Please wait... `n"
 Write-Host $Message -ForegroundColor Yellow
 
 #importing AD module and running the csv export
 Import-Module ActiveDirectory;
-Get-ADGroupMember -identity $ADgroup | select name,SamAccountName | Export-csv -path \$ADgroup.csv
+Get-ADGroupMember -identity $ADgroup | Select-Object name,SamAccountName | Export-csv -path $ExportCSV -force
 
-
-$Message = " CSV $ADgroup.csv generated! `n"
+$Message = " CSV $ADgroup.csv generated on C:\temp!`n"
 Write-Host $Message -ForegroundColor Green
-pause
+Read-Host -Prompt "Press any key to continue"
