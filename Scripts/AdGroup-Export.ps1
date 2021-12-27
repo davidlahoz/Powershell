@@ -2,7 +2,7 @@
 New-Item -ItemType Directory -Force -Path C:\TEMP
 
 #EXPORTING USERNAME AND SAMACCOUNTNAME AKA LOGIN USERNAME TO CSV
-$Message = " The CSV file will be generated on the same folder where this script is exectuted `n"
+$Message = " The CSV file will be generated on C:\TEMP `n"
 Write-Host $Message -ForegroundColor Red
 
 #ADGroup input structure
