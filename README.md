@@ -6,7 +6,7 @@ Despite being a simple portfolio, I am also using this as a personal repo of tho
 # Structure explanation
 
 -  [UnifiedScript.ps1](UnifiedScript.ps1)
-	>  All-in-one ps1 file including my scripts with a menu. Hardcoded. NOT UP TO DATE
+	>  All-in-one ps1 file including my scripts with a menu. Hardcoded. NOT UP TO DATE. See TO-DO list, point 1.
 
 -  ["\StandaloneScripts" folder](/StandaloneScripts/)
 	>  Scripts as standalone. In a future I expect to link "UnifiedScript" to the scripts located in that folder to avoid double edditing and link it to UnifiedScript.
@@ -15,7 +15,6 @@ Despite being a simple portfolio, I am also using this as a personal repo of tho
 
 - [ ] Link scripts from UnifiedScript to the ones in \StandaloneScripts\
 - [ ] Enable remote connection in order to avoid using local script execution 
-- [ ] Better looking on all scripts (AIO menu and standalone)
 - [ ] Add more scripts (expected not to be ever finished)
 
 
