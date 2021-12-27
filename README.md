@@ -3,6 +3,9 @@
 Those are my humble scripts done by myself to avoid repetitive tasks on my daily tasks as Windows Sysadmin.
 Despite being a simple portfolio, I am also using this as a personal repo of those scripts, where I expect to be updated and improved by the time I become more efficient with PowerShell.
 
+# Note
+All scripts that export any type of file use C:\TEMP as default export folder 
+
 # To-Do list (not ordered by priority)
 
 - [ ] Unify as AIO all \Scripts\
