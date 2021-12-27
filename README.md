@@ -5,7 +5,7 @@ Despite being a simple portfolio, I am also using this as a personal repo of tho
 
 # To-Do list (not ordered by priority)
 
-- [ ] Unify as AIO all \StandaloneScripts\
+- [ ] Unify as AIO all \Scripts\
 - [ ] Enable remote connection  in some scripts in order to avoid using local script execution 
 - [ ] Add more scripts (expected not to be ever finished)
 
