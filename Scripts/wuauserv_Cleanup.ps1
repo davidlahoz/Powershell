@@ -1,3 +1,4 @@
+# Part 2 for FreeUpSpaceOnC.ps1 - Made as separate script since not all script users need to cleanup WUAUSERV files
 #
 # WelcomeText
 #

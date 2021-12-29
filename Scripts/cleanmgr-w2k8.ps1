@@ -1,4 +1,6 @@
-﻿## Path definition for script. || Automatically selects %systemroot%/winsxs despite which local drive is using
+﻿#Activation for cleanmgr on W2k8 server R2
+#
+## Path definition for script. || Automatically selects %systemroot%/winsxs despite which local drive is using
 $Winsxs = $env:SystemRoot+'\'+'winsxs'
 ##Destinations
 $System32 = $env:SystemRoot+'\'+'system32'

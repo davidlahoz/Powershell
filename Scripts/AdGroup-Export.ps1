@@ -1,4 +1,6 @@
-﻿#Create C:\Temp
+﻿# This script exports the members of a desired AD Group to csv file
+#
+#Create C:\Temp
 New-Item -ItemType Directory -Force -Path C:\TEMP
 
 #EXPORTING USERNAME AND SAMACCOUNTNAME AKA LOGIN USERNAME TO CSV

@@ -1,3 +1,5 @@
+# Exports all Citrix Apps and the AD Groups that can use each app (aka 'Limited Visibility' on Citrix Studio) 
+#
 New-Item -ItemType Directory -Force -Path C:\TEMP
 Set-Location -Path C:\temp
 #Listing Citrix Apps installed. Returns name and AD Groups/users that have Visibility for the app

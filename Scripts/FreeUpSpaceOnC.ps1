@@ -1,3 +1,4 @@
+# Small tool to cleanup space on C drive doing some basic steps
 #
 # WelcomeText
 #
