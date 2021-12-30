@@ -36,3 +36,7 @@ h1 {
 strong{
     color: red;
 }"
+#COPY FILES TO IIS NETWORK FOLDER
+Copy-Item "C:\TEMP\index.html" -Destination "\\IISSERVER\WEBSITE"
+Copy-Item "C:\TEMP\style.css" -Destination "\\IISSERVER\WEBSITE"
+exit
