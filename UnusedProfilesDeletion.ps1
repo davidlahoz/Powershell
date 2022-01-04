@@ -1,6 +1,6 @@
 #
-# This script launches delprof2 - https://helgeklein.com/free-tools/delprof2-user-profile-deletion-tool/
-#
+# This script uses Delprof2 Delprof2 by Helge Klein - https://helgeklein.com/free-tools/delprof2-user-profile-deletion-tool/
+#LOCAL USAGE
 #
 #Save hostname to variable
 $hostname=hostname
