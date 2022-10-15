@@ -1,4 +1,4 @@
-# Exports all Citrix Apps and the AD Groups that can use each app (aka 'Limited Visibility' on Citrix Studio) 
+# Exports all Citrix Apps and the AD Groups that can use each app (aka 'Limited Visibility' on Citrix Studio) and creates a simple html page for easier preview.
 #
 New-Item -ItemType Directory -Force -Path C:\TEMP
 Set-Location -Path C:\temp
